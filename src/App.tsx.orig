@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 import { BrowserRouter } from "react-router"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Routes from "./routes"
 import "./globals.css"
 
 // import {getapi, postapi} from '../myapi2'
+=======
+import { BrowserRouter } from "react-router";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import Routes from './routes';
+import "./globals.css"
+
+// import {getapi, postapi} from '../myapi'
 // abc
+>>>>>>> 5ee7b06f364056c37f5c7be330ac73083d827fd5
 
 // Query Client
 

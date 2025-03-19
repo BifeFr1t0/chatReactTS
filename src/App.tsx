@@ -1,18 +1,20 @@
-import { BrowserRouter } from "react-router";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Routes from './routes';
-// import {getapi, postapi} from '../myapi'
+import { BrowserRouter } from "react-router"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+import Routes from "./routes"
+import "./globals.css"
 
+// import {getapi, postapi} from '../myapi2'
 
-const queryClient = new QueryClient();
+// Query Client
+
+const queryClient = new QueryClient()
 
 function App() {
-
   return (
-    <QueryClientProvider client = {queryClient}>
-        <BrowserRouter>
-          <Routes/>
-        </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </QueryClientProvider>
   )
 }

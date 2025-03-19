@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Routes from './routes';
 // import {getapi, postapi} from '../myapi'
-
+// abc
 
 const queryClient = new QueryClient();
 
